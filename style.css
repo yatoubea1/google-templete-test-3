@@ -206,14 +206,18 @@ letter-spacing: 3px;
 font-weight: 700;
 
 }
-  .search{
+ input .search{
    width: 100%;
 border: 1px solid white;
 padding: 6px 12px;
+margin-top: 20px;
 
  }
 
-
+ section .footer .rowrow2{
+   width: 100%;
+   background-color: black;
+ }
 }
    
 
