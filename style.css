@@ -159,7 +159,7 @@ padding-right:  10px;
  section .footer .row{
     padding: 15px 25px ;
     border-top: 1px solid rgb(48, 43, 43);
-    ;
+    
     color: #fff;
  }
 
@@ -180,43 +180,21 @@ padding-right:  10px;
     color: white;
     margin-right: 25px;
  }
- @media(max-width: 599px) {header{
-   display: flex;
-   justify-content: right;
-   gap: 10px;
-   margin: 15px;
-}
-header a {
-   font-size: 12px;
-}
-
-img .menu{
-height: 15px;
-margin-top: 5px;
-}
-img .bus{
-width: 24px;
-height: 24px;
-border: none;
-
-}
-h1{
-font-size: 50px;
-letter-spacing: 3px;
-font-weight: 700;
-
-}
- input .search{
+ @media(max-width: 600px) {
+section{
+   padding: 10px;
    width: 100%;
-border: 1px solid white;
-padding: 6px 12px;
-margin-top: 20px;
-
+}
+.searchBox{
+   width:100% ;
+}
+ .footer{
+   display: block;
+   justify-content: space-between;
+   width: 100%;
  }
-
- section .footer .rowrow2{
+ section .footer{
    width: 100%;
-   background-color: black;
  }
 }
    
